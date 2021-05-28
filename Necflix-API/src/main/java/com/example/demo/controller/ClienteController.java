@@ -19,7 +19,7 @@ import com.example.demo.entities.Cliente;
 import com.example.demo.repository.ClienteRepository;
 
 @RestController
-@RequestMapping(value = "/clientes")
+@RequestMapping(value = "/cliente")
 public class ClienteController {
 	
 	@Autowired
